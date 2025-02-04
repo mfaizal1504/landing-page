@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
 </head>
 <body>
     <div class="header">
         <div class="logo">
-            <a>Header Logo</a>
+            <a href="#">Header Logo</a>
         </div>
         <div class="header-links">
             <a>Header Link One</a>
@@ -17,7 +19,7 @@
         </div>
     </div>
     <div class="promo">
-        <div class="promo-text">
+        <div class="promo-content">
             <div class="promo-header">
                 This website is awesome
             </div>
@@ -25,30 +27,37 @@
                 This website has some subtext that goes under the main title. It's a
                 smaller font and the color is lower contrast
             </div>
-            <div class="signup-button">
-                Sign up
+            <div>
+                <button class="signup-button" href="#">Sign up</button>
             </div>
+            
+        </div>
+        <div class="promo-img">
+            <img src="./images/castle-sakura.jpg" alt="Placeholder for main image" width="400px" height="250px">
         </div>
     </div>
     <div class="content">
-        <ul class="content-cards">
-            <li>
-                <img alt="placeholder" width="20px" height="20px">
+        <div class="content-title">
+            Some random information
+        </div>
+        <div class="content-cards">
+            <div class="card">
+                <img src="./images/castle-blue.jpg" alt="placeholder" width="150px" height="100px">
                 <div class="card-text">Images</div>
-            </li>
-            <li>
-                <img alt="placeholder" width="20px" height="20px">
+            </div>
+            <div class="card">
+                <img src="./images/castle-evening.jpg" alt="placeholder" width="150px" height="100px">
                 <div class="card-text">Images</div>
-            </li>
-            <li>
-                <img alt="placeholder" width="20px" height="20px">
+            </div>
+            <div class="card">
+                <img src="./images/castle-night.jpg" alt="placeholder" width="150px" height="100px">
                 <div class="card-text">Images</div>
-            </li>
-            <li>
-                <img alt="placeholder" width="20px" height="20px">
+            </div>
+            <div class="card">
+                <img src="./images/castle-sunny.jpg" alt="placeholder" width="150px" height="100px">
                 <div class="card-text">Images</div>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
     <div class="quote">
         <div class="quote-text">
@@ -67,9 +76,9 @@
         <div class="contact-text">
             Sign up for our product by clicking that button right over there!
         </div>
-        <div class="contact-button">
+        <button class="contact-button">
             Sign up
-        </div>
+        </button>
     </div>
 </body>
 </html>
